@@ -12,7 +12,9 @@ This is a summary of the moisture sensor can be used to detect soil moisture, wh
 Sensor surface made of metal processing, it can extend its life. Insert it into the soil, then read it using the AD converter. In its help, the plant will remind you: I want to drink, please give me a little water to drink me.
 
 Technical Specification:
- 
+
+TODO modifier les specification pour le 3.3V
+
 Supply voltage: 3.3V or 5V
 Working current: less than 20mA
 Output voltage: 0-2.3V [2.3V voltage values are completely immersed in the water], 5V power supply, the greater the humidity, the greater the output voltage.
@@ -47,9 +49,9 @@ The simplest installation way is to follow these steps (Linux):
   mkdir ~/tmp
   sudo mount /dev/sdb1 ~/tmp
   ```
-3. copy DHTSeries.py and main.py files to the board
+3. copy MoistureSensor.py and main.py files to the board
   ```
-  sudo cp DHTSeries.py main.py ~/tmp
+  sudo cp MoistureSensor.py main.py ~/tmp
   ```
 4. Unmount the device
   ```
