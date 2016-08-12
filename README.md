@@ -32,7 +32,7 @@ You can check more about the microPython project here: http://micropython.org/
 Sensor pin | board pin
 -----------+----------
     VDD    |    3.3v
-    DTA    |    Y1
+    DTA    |    X11
     GND    |    GND
 ```
 
